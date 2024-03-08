@@ -14,3 +14,7 @@ static double GetAverage(int [] number)
 
     return result / number.Length;
 }
+
+int[] number = {1, 2, 3, 4};
+double avg = GetAverage(number);
+Console.WriteLine(avg);
