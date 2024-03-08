@@ -2,4 +2,4 @@
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Siema to ja koszykarz.");
-Console.WriteLine("No witam witam");
+Console.WriteLine("No witam witam!");
