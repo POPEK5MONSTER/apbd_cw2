@@ -18,3 +18,20 @@ static double GetAverage(int [] number)
 int[] number = {1, 2, 3, 4};
 double avg = GetAverage(number);
 Console.WriteLine(avg);
+
+static int GetMax(int [] number)
+{
+    int max = 0;
+    for (int i = 0; i < number.Length; i++)
+    {
+        if ( max < number[i])
+        {
+            max = number[i];
+        }
+    }
+    return max;
+}
+int max = GetMax(number);
+Console.WriteLine(max);
+
+
