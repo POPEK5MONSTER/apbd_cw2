@@ -6,13 +6,13 @@ Console.WriteLine("No witam witam!");
 
 static double GetAverage(int [] number)
 {
-    double result = 0.0;
+    double new_result = 0.0;
     for (int i = 0; i < number.Length; i++)
     {
-        result += number[i];
+        new_result += number[i];
     }
 
-    return result / number.Length;
+    return new_result / number.Length;
 }
 
 int[] number = {1, 2, 3, 4};
